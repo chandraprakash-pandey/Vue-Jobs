@@ -1,4 +1,14 @@
 <script setup>
+import { PulseLoader } from 'vue-spinner';
+import { onMounted, reactive } from 'vue';
+import { useRoute, RouterLink } from 'vue-router';
+import axios from 'axios';
+
+
+const route = useRoute();
+
+const jobId = route.params.id;
+
 
 </script>
 
